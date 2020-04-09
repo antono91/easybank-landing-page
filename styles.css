@@ -1,0 +1,26 @@
+/* .attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+body {
+    background-color: #FFF;
+}
+
+.navi {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.title {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.usp {
+    background-color: hsl(220, 16%, 96%);
+}
+.articles {
+    background-color: hsl(0, 0%, 98%);
+}
+
