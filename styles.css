@@ -1,26 +1,164 @@
-/* .attribution { 
-    font-size: 11px; text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-} */
-
 body {
-    background-color: #FFF;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(233, 26%, 24%);
+    overflow-X: hidden;
+
+    }
+
+p {
+    color: hsl(233, 8%, 62%);
 }
 
-.navi {
+h3 {
+    font-size: 1.5rem;;
+}
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+}
+
+/* Button */
+.button-invite{
+    background: linear-gradient(45deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 10px 35px;
+    border: none;
+}
+
+.button-invite:hover{
+    background: linear-gradient(45deg, hsl(136, 65%, 70%), hsl(192, 70%, 70%));
+
+}
+
+/* Navigation */
+.navbar-nav {
+    padding: 0;
+}
+
+.navbar{
     background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0 13%;
+    z-index: 2;
 }
 
+.nav-item a{
+    display: block;
+    text-decoration: none;
+    padding: 25px 15px;
+    color: hsl(233, 8%, 62%);
+    border-bottom: solid 3px transparent;
+}
+
+.nav-item a:hover{
+    border-bottom: solid 3px hsl(136, 65%, 51%);
+    color: hsl(233, 26%, 24%);
+}
+
+/* Title */
 .title {
     background-color: hsl(0, 0%, 98%);
+    padding: 15% 13%;
 }
+
+.title-bg{
+    position: absolute;
+    bottom: -120%;
+    width: 200%;
+    right: -100%;
+    z-index: 0;
+}
+.title-img{
+    position: absolute;
+    bottom: -140%;
+    width: 120%;
+    right: -50%;
+    z-index: 1;
+}
+
+.title p{
+    margin: 7% auto;
+}
+
+/* USP */
 
 .usp {
     background-color: hsl(220, 16%, 96%);
+    padding: 7% 13%;
+
 }
+
+.usp-icon{
+    margin: 50px 0 30px 0;
+}
+
+/* Articles  */
+
 .articles {
     background-color: hsl(0, 0%, 98%);
+    padding: 2% 13%;
+}
+
+.card{
+    border: none;
+}
+
+.article-author{
+    font-size: .7rem;
+}
+
+.article-title{
+    font-size: 1.25rem;
+    color:  hsl(233, 26%, 24%);
+}
+
+.article-title:hover{
+    color:hsl(136, 65%, 51%);
+}
+
+/* Footer */
+
+footer{
+    padding: 2% 13%;
+}
+
+.footer-logo{
+    fill: hsl(220, 16%, 96%);
+}
+
+footer a{
+    color: hsl(220, 16%, 96%); 
+    text-decoration: none;
+}
+
+footer li{
+    margin: 15px 0;
+}
+
+footer a:hover{
+    color: hsl(136, 65%, 51%);
+    text-decoration: none;;
+}
+
+.f-icon{
+    margin-top: 60px;;
+    color: #FFF;
+    margin-right: 10px;
+}
+
+.f-icon:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+footer .button-invite{
+    margin-top: 15px;
+}
+
+footer p{
+    margin-top: 45px;
 }
 
